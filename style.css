@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8e8e8;
+  }
+ #ust_img img{ 
+    width: 1200px;
+    height: 300px;
+ }
+section {
+    text-align: center;
+  }
+.menubar{
+    display: flex; /* Logo ve menüyü yan yana getirir */
+    height: 80px;
+    align-items: center; /* Header içerisindeki child ları dikeyde ortalar */
+    border-bottom: 1px solid #ccc;
+    padding: 0 100px;
+}
+.menubar ul {
+    display: flex; /* Menüdeki li leri yan yana getirir */
+    margin-left: 60px;
+  }
+.menubar ul li:not(:first-child) {
+    margin-left: 60px;
+}
+.ref_list{
+    margin: 30px;
+    font-weight: bold;
+}
